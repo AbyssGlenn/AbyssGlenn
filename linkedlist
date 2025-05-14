@@ -1,0 +1,3 @@
+linked list là list được lưu trữ theo kiểu cấp phát động, tức là nếu trống ô nhớ nào thì chèn data vào đó. Linked list không liên tục. Mỗi ô nhớ được gọi là node, node lưu trữ dữ liệu và địa chỉ của node tiếp theo
+node[-info:obj
+     -next:Node]
