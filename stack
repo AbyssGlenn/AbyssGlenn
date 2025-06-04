@@ -5,3 +5,9 @@ các thuật toán liên quan đến stack:
 - push: thêm 1 phần tử mới lên trên cùng
 - pop: lấy phần tử trên cùng ra khỏi stack -> xoá phần tử đấy ra khỏi stack
 - top: trả về kết quả của phần tử trên cùng -> chỉ lấy kết quả, phần tử ấy vẫn nằm trong stack
+
+thuật toán maze search xử lí theo stack:
+sử dụng thuật toán tìm đường đi theo chiều sâu (depth first search)
+backtracking
+stack dùng để lưu trữ các toạ độ và hướng đi
+khi gặp phải đường cụt thì sẽ quay về toạ độ trước đó và đi hướng khác
