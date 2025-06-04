@@ -1,1 +1,7 @@
-
+stack là 1 ngăn xếp thực hiện theo LIFO (last in first out). Nó giống như 1 chồng đĩa được xếp lên nhau và chỉ thao tác được phần tử trên cùng (top). Mọi đoạn code xử lí stack chỉ tác động lên phần tử trên cùng (top). 
+các thuật toán liên quan đến stack:
+- clear: xoá tất cả phần tử trong stack
+- isEmpty: check stack nếu nó rỗng
+- push: thêm 1 phần tử mới lên trên cùng
+- pop: lấy phần tử trên cùng ra khỏi stack -> xoá phần tử đấy ra khỏi stack
+- top: trả về kết quả của phần tử trên cùng -> chỉ lấy kết quả, phần tử ấy vẫn nằm trong stack
